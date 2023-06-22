@@ -11,6 +11,7 @@ namespace DebeloApp.API.Data
         public DataContext(DbContextOptions<DataContext> options)
 : base(options) { }
         public DbSet<Student> Student { get; set; }
+        public DbSet<Grade> Grade { get; set; }
         
     }
 
